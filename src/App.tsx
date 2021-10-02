@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import Mic from './images/mic.png';
 import './App.css';
 
 function App() {
@@ -16,8 +16,11 @@ function App() {
         </div>
         <div className='yellow-line'></div>
         <div className='footer'>
-          <div style={{ marginTop: '2rem' }}> قسمت اول</div>
-          <div> اسپانسر: www.hezarchiz.com</div>
+          <img src={Mic} className='mic-logo' alt='logo' />
+          <div className='footer-content'>
+            <div style={{ marginTop: '2rem' }}> قسمت اول</div>
+            <div> اسپانسر: www.hezarchiz.com</div>
+          </div>
         </div>
       </div>
     </div>

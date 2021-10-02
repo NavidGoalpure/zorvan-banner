@@ -2,17 +2,6 @@
   margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg) center
     no-repeat;
@@ -91,13 +80,22 @@
 }
 .footer {
   position: absolute;
-  bottom: 3rem;
-  right: 5rem;
-  color: white;
+  bottom: 1rem;
+  right: 1rem;
   direction: rtl;
+  display: flex;
+  align-content: center;
+}
+.footer-content {
+  color: gainsboro;
+
   font-size: 200%;
   font-family: 'Lalezar';
-  text-shadow: 0 0 0 transparent, 0 0 10px yellow, 0 0 20px rgb(255 0 60 / 50%),
+  /* text-shadow: 0 0 0 transparent, 0 0 10px yellow, 0 0 20px rgb(255 0 60 / 50%),
     0 0 40px yellow, 0 0 100px yellow, 0 0 200px yellow, 0 0 300px yellow,
-    0 0 500px yellow, 0 0 1000px yellow;
+    0 0 500px yellow, 0 0 1000px yellow; */
+}
+.mic-logo {
+  height: 20vmin;
+  pointer-events: none;
 }
