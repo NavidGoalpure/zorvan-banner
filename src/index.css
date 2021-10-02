@@ -17,21 +17,26 @@ p {
 }
 
 @font-face {
-  font-family: 'Hanieh-Outline';
-  src: url('./fonts/Hanieh.Outline.eot');
-  src: url('./fonts/Hanieh.Outline.ttf') format('truetype'),
-    url('./fonts/Hanieh.Outline.svg') format('svg'),
-    url('./fonts/Hanieh.Outline.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
   font-family: 'Lalezar';
   src: url('./fonts/Lalezar-Regular.woff2') format('woff2'),
     url('./fonts/Lalezar-Regular.woff') format('woff');
   font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sahel';
+  src: url('./fonts/Sahel-FD.woff') format('woff2'),
+    url('./fonts/Sahel-FD.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Sahel';
+  src: url('./fonts/Sahel-Bold-FD.woff2') format('woff2'),
+    url('./fonts/Sahel-Bold-FD.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
