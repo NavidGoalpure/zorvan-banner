@@ -1,6 +1,6 @@
 const StartSvg = () => {
   return (
-    <div style={{ color: 'gainsboro', width: '4rem', height: 'auto' }}>
+    <div style={{ color: 'gainsboro', width: '3rem', height: 'auto' }}>
       <svg
         version='1.0'
         xmlns='http://www.w3.org/2000/svg'

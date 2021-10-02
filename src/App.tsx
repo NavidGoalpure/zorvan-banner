@@ -11,19 +11,20 @@ function App() {
         <div className='sidebar'>
           <p className='sidebar-title'>ژنرال های بیزانسی</p>
 
-          {/* <div
+          <div
             style={{
               display: 'flex',
               justifyContent: 'center',
-              marginTop: '1rem',
+              marginTop: '4rem',
+              marginBottom: '7px',
             }}
           >
             <StartSvg />
             <StartSvg />
             <StartSvg />
-          </div> */}
-          <img src={mics} className='mics ' alt='logo' />
+          </div>
           <img src={gust} className='avatar ' alt='logo' />
+          <img src={mics} className='mics ' alt='logo' />
         </div>
         {/* <div className='green-line'></div> */}
         <div className='card'>
