@@ -1,5 +1,6 @@
 import React from 'react';
-import NavidPic from './images/navidPic.jpg';
+import gust from './images/gust.jpg';
+import mics from './images/mics.png';
 import './App.css';
 import StartSvg from './star';
 
@@ -10,7 +11,7 @@ function App() {
         <div className='sidebar'>
           <p className='sidebar-title'>ژنرال های بیزانسی</p>
 
-          <div
+          {/* <div
             style={{
               display: 'flex',
               justifyContent: 'center',
@@ -20,8 +21,9 @@ function App() {
             <StartSvg />
             <StartSvg />
             <StartSvg />
-          </div>
-          <img src={NavidPic} className='avatar ' alt='logo' />
+          </div> */}
+          <img src={mics} className='mics ' alt='logo' />
+          <img src={gust} className='avatar ' alt='logo' />
         </div>
         {/* <div className='green-line'></div> */}
         <div className='card'>
@@ -33,11 +35,6 @@ function App() {
             <p className='title'>www.hezarchiz.com </p>
           </div>
         </div>
-        {/* <div className='yellow-line'></div> */}
-        {/* <div className='footer'>
-          <div style={{ marginTop: '2rem' }}> قسمت اول</div>
-          <div> اسپانسر: www.hezarchiz.com</div>
-        </div> */}
       </div>
     </div>
   );

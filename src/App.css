@@ -2,21 +2,6 @@
   margin: 0;
 }
 
-.avatar {
-  height: 30vmin;
-  pointer-events: none;
-  margin: 0 auto;
-  border-radius: 1rem;
-  border: 2px solid;
-  border-color: gainsboro;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg) center
     no-repeat;
@@ -46,6 +31,14 @@
   font-weight: bold;
   font-family: Sahel;
   margin-bottom: 2rem;
+}
+.avatar {
+  height: 30vmin;
+  pointer-events: none;
+  margin: 0 auto;
+  border-radius: 1rem;
+  border: 2px solid;
+  border-color: gainsboro;
 }
 
 .card {
@@ -131,4 +124,10 @@
   text-shadow: 0 0 0 transparent, 0 0 10px yellow, 0 0 20px rgb(255 0 60 / 50%),
     0 0 40px yellow, 0 0 100px yellow, 0 0 200px yellow, 0 0 300px yellow,
     0 0 500px yellow, 0 0 1000px yellow;
+}
+.mics {
+  height: 5vmin;
+  pointer-events: none;
+  object-fit: contain;
+  margin-top: 1rem;
 }
