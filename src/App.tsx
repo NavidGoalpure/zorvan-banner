@@ -1,5 +1,6 @@
 import React from 'react';
 import Mic from './images/mic.png';
+import NewLogo1 from './newLogo1.svg';
 import './App.css';
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
     <div className='App'>
       <div className='App-header'>
         <div className='green-line'></div>
-        {/* <img src={logo} className='App-logo' alt='logo' /> */}
+        <img src={NewLogo1} className='App-logo' alt='logo' />
         <div className='card'>
           <div className='card-inside'>
             {/* <div className='yellow-line'></div> */}
