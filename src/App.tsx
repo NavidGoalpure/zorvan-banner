@@ -9,7 +9,9 @@ function App() {
     <div className='App'>
       <div className='App-header'>
         <div className='sidebar'>
-          <p className='sidebar-title'>ژنرال های بیزانسی</p>
+          <p className='sidebar-title side-bar-title-motion'>
+            ژنرال های بیزانسی
+          </p>
 
           <div
             style={{

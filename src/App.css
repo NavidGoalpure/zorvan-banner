@@ -20,6 +20,10 @@
   right: 0;
   height: 100%;
   width: 20rem;
+  /*  */
+  background: linear-gradient(-45deg, #ee7752, #0dbb6b, #02688d, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
 }
 .sidebar-title {
   position: absolute;
@@ -150,6 +154,7 @@
 .fade {
   animation: fade 3s infinite alternate;
 }
+
 @keyframes blink-text {
   78% {
     color: inherit;
@@ -355,5 +360,16 @@
   }
   46% {
     opacity: 0.8;
+  }
+}
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
