@@ -27,14 +27,20 @@ function App() {
           <img src={mics} className='mics ' alt='logo' />
         </div>
         {/* <div className='green-line'></div> */}
-        <div className='card'>
-          <div className='card-inside'>
-            {/* <div className='yellow-line'></div> */}
-            <p className='title'>مصاحبه با نوید گل پور</p>
-            <br />
-            <p className='title'>بنیانگذار وب سایت </p>
-            <p className='title'>www.hezarchiz.com </p>
-          </div>
+        <div className='card '>
+          <div className='card-inside fade'></div>
+        </div>
+        <div className='card-text-container'>
+          <p className='title'>
+            مصاحبه با
+            <span className='flicker' style={{ marginRight: '8px' }}>
+              نوید گل پور
+            </span>
+          </p>
+
+          <br />
+          <p className='title'>بنیانگذار وب سایت </p>
+          <p className='title'>www.hezarchiz.com </p>
         </div>
       </div>
     </div>

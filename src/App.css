@@ -49,7 +49,8 @@
   border-radius: 50px;
   width: fit-content;
   margin: 0 auto;
-  margin-top: 8rem;
+  margin-top: 11rem;
+  margin-left: 10rem;
 }
 .card-inside {
   display: flex;
@@ -68,8 +69,8 @@
 }
 .card-text-container {
   position: absolute;
-  top: 221px;
-  left: 400px;
+  top: 261px;
+  left: 210px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,6 +146,9 @@
 }
 .flicker {
   animation: flicker 2s linear infinite;
+}
+.fade {
+  animation: fade 3s infinite alternate;
 }
 @keyframes blink-text {
   78% {
@@ -334,5 +338,22 @@
 
   to {
     opacity: 1;
+  }
+}
+@keyframes fade {
+  40% {
+    opacity: 0.8;
+  }
+  42% {
+    opacity: 0.1;
+  }
+  43% {
+    opacity: 0.8;
+  }
+  45% {
+    opacity: 0.1;
+  }
+  46% {
+    opacity: 0.8;
   }
 }
